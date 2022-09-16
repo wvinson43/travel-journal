@@ -1,4 +1,5 @@
 import React from "react"
+import mapPin from "../images/location-dot.svg"
 
 export default function Card(props) {
     const {imageUrl, location, googleMapsUrl, title, startDate, endDate, description} = props
@@ -8,7 +9,7 @@ export default function Card(props) {
             <img src={imageUrl} className="card--image" />
             <div className="card--deets">
                 <div className="card--destination">
-                    <img src="../images/location-dot.svg" className="card--logo" />
+                    <img src={mapPin} className="card--logo" />
                     <p>{location}</p>
                     <a className="card--map" href={googleMapsUrl}>View on Google Maps</a>
                 </div>
