@@ -1,8 +1,12 @@
 # My travel journal
 
-# This is a static site with some features moving towards dynamic, which will will be in my next project.
+# Details
 
-# Built with React, JSX, HTML, CSS, and Javascript
+This is a static site with some features moving towards dynamic, which will will be in my next project.
+
+# Built with:
+
+React, JSX, HTML, CSS, and Javascript
 
 # Deployed
 
